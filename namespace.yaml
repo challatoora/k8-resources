@@ -1,8 +1,9 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: roboshop
+  name: loreal
   labels:
-    project: roboshop
-    environment: dev
-    purpose: poc
+    project_name: loreal_shampoo
+    dev: Murali
+    Devops: ahi kuda Murali
+    env: dev
