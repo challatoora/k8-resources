@@ -7,7 +7,7 @@ spec:
   - image: registry.k8s.io/test-webserver
     name: test-container
     volumeMounts:
-    - mountPath: /cache
+    - mountPath: /var/log
       name: cache-volume
   volumes:
   - name: cache-volume
